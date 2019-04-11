@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    html, body { margin: 0; padding: 0; height: 100%; }
+.header { width: 100%; height: 10%;
+   background: white; }
+.nav { width: 20%; height: 80%; float: left;
+   background: orange; }
+.section { width: 70%; height: 80%; float: left;
+   background: white; }
+.aside { width: 10%; height: 80%; float: left;
+   background: orange; }
+.footer { width: 100%; height: 10%; clear: both;
+   background: skyblue; }
+
+
+    #fixed {
+    	position : fixed;
+    	bottom : 10px;
+    	right : 10px;
+    	width : 100px;
+    	padding : 5px;
+    	background : red;
+    	color : white;
+    }
+#float {
+	float : right;
+	border : 1px dotted black;
+	width : 6em;
+	padding : 1em;
+	margin : 1em;
+}
+#menubar {
+	background : olive;
+}
+#menubar ul { /* 여백과 패딩 모두 0 */
+	margin : 0;
+	padding : ;
+	width : 567px; /* 모든 아이템(<li>)을 한 줄에 품을 수 있는 폭 */
+}
+#menubar ul li {
+	display : inline-block; /* 새 줄로 넘어가지 않게 */
+	list-style-type : none; /* 마커 삭제 */
+	padding : 5px 15px; /* top=bottom=0, left=right=15px */
+}
+#menubar ul li a {
+	color : white;
+  	text-decoration : none; /* 링크 보이지 않게 */
+}
+#menubar ul li a:hover {
+ 	color : violet;  /* 마우스 올라 갈 때 색 */
+}
+#chapterlist a:none {
+  color: red;}
+
+.nav { overflow : scroll; }
+    </style>
+  </head>
+  <body>
+    <header class="header" id="menubar">
+      <ul>
+    		<li><a href="#">Home</a></li>
+    		<li><a href="#">HTML 기본</a></li>
+    		<li><a href="#">HTML 구조</a></li>
+    		<li><a href="#">CSS 1</a></li>
+    		<li><a href="chapter5.html" target="_self">CSS 2</a></li>
+    	</ul>
+    </header>
+
+	  <nav class="nav" id="chapterlist">
+    <a href="5/ex5-01.html" target="nest">ex5-01.html </a> <br>
+    <a href="5/ex5-02.html" target="nest">ex5-02.html </a> <br>
+    <a href="5/ex5-03.html" target="nest">ex5-03.html </a> <br>
+    <a href="5/ex5-04.html" target="nest">ex5-04.html </a> <br>
+    <a href="5/ex5-05.html" target="nest">ex5-05.html </a> <br>
+    <a href="5/ex5-06.html" target="nest">ex5-06.html </a> <br>
+    <a href="5/ex5-07.html" target="nest">ex5-07.html </a> <br>
+    <a href="5/ex5-08.html" target="nest">ex5-08.html </a> <br>
+    <a href="5/ex5-09.html" target="nest">ex5-09.html </a> <br>
+    <a href="5/ex5-10.html" target="nest">ex5-10.html </a> <br>
+    <a href="5/ex5-11.html" target="nest">ex5-11.html </a> <br>
+    <a href="5/ex5-12.html" target="nest">ex5-12.html </a> <br>
+    <a href="5/ex5-13.html" target="nest">ex5-13.html </a> <br>
+    <a href="5/ex5-14.html" target="nest">ex5-14.html </a> <br>
+    <a href="5/fig5-01-a.html" target="nest">fig5-01-a.html </a> <br>
+    <a href="5/fig5-01-b.html" target="nest">fig5-01-b.html </a> <br>
+    <a href="5/fig5-03.html" target="nest">fig5-03.html </a> <br>
+    <a href="5/fig5-04.html" target="nest">fig5-04.html </a> <br>
+    <a href="5/fig5-05.html" target="nest">fig5-05.html </a> <br>
+    <a href="5/fig5-06.html" target="nest">fig5-06.html </a> <br>
+    <a href="5/fig5-08.html" target="nest">fig5-08.html </a> <br>
+    <a href="5/fig5-09.html" target="nest">fig5-09.html </a> <br>
+    <a href="5/fig5-10.html" target="nest">fig5-10.html </a> <br>
+    <a href="5/fig5-11.html" target="nest">fig5-11.html </a> <br>
+    <a href="5/fig5-12.html" target="nest">fig5-12.html </a> <br>
+    <a href="5/fig5-13.html" target="nest">fig5-13.html </a> <br>
+    <a href="5/fig5-14.html" target="nest">fig5-14.html </a> <br>
+    <a href="5/fig5-15.html" target="nest">fig5-15.html </a> <br>
+    <a href="5/fig5-16.html" target="nest">fig5-16.html </a> <br>
+    <a href="5/fig5-17.html" target="nest">fig5-17.html </a> <br>
+    <a href="5/fig5-18.html" target="nest">fig5-18.html </a> <br>
+    <a href="5/fig5-19.html" target="nest">fig5-19.html </a> <br>
+    <a href="5/fig5-20.html" target="nest">fig5-20.html </a> <br>
+    <a href="5/fig5-21.html" target="nest">fig5-21.html </a> <br>
+    <a href="5/fig5-22.html" target="nest">fig5-22.html </a> <br>
+    <a href="5/fig5-23.html" target="nest">fig5-23.html </a> <br>
+    <a href="5/fig5-24.html" target="nest">fig5-24.html </a> <br>
+    <a href="5/fig5-25.html" target="nest">fig5-25.html </a> <br>
+    <a href="5/fig5-27.html" target="nest">fig5-27.html </a> <br>
+    <a href="5/list-style-shorthand.html" target="nest">list-style-shorthand.html</a> <br>
+  </nav>
+
+	<section class="section">
+    <iframe src="" frameborder="0" name="nest" width="100%" height="100%"></iframe>
+  </section>
+	<aside class="aside">
+    <div>
+  <p id="float">
+    선생에게 문의하자!</p>
+  <p>
+    모르는게 있을 때는 선생에 게 물어보는 것이 가장 좋음.
+  </p>
+  </div>
+  </aside>
+  <div id="fixed">
+  <a href="#"> 이클래스로 가볼까</a>
+</div>
+	<footer class="footer">꼬릿말이나 저작권을 넣는 곳</footer>
+
+  </body>
+</html>
